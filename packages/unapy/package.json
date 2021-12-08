@@ -25,6 +25,7 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
+    "uuid": "^8.0.0",
     "@uno-game/error-handler": "file:../shared/error-handler",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

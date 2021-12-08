@@ -9,3 +9,5 @@ node_modules
 
 # Client build
 build
+
+.history
