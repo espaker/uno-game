@@ -3,7 +3,7 @@ WORKDIR /usr/src/app
 RUN mkdir ../shared
 COPY ./shared ../shared
 COPY ./unoenty/package.json ./
-RUN yarn 
+RUN yarn
 COPY ./unoenty .
 RUN yarn build
 RUN rm -r ../shared
