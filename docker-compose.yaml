@@ -33,6 +33,6 @@ services:
         env_file:
             - ./packages/unoenty/.env
         ports:
-            - 80
+            - 80:80
         depends_on:
             - unapy
